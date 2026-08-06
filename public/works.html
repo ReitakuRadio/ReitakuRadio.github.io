@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Works | れいたくラジオ</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/logo.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .page-header { text-align:center; padding:6rem 0 3rem; background-image: url('assets/img/title.JPG'); background-size: cover; background-position: center; color:#fff; }
+        .page-header::before { content: ''; display:block; }
+        .section-subtitle { font-size: 1.2rem; margin-bottom: 0.75rem; color: #333; }
+    </style>
+    <style>
+        /* 下層ページ用のヘッダースタイル (about.htmlと同様) */
+        .page-header {
+            position: relative;
+            height: 50vh;
+            min-height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: url('assets/img/pic.png'); /* 背景画像 */
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            margin-bottom: 4rem;
+        }
+        .page-header::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.5);
+        }
+        .page-title-content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            margin-top: 12rem; /* 位置を下に調整 */
+        }
+        .page-title {
+            font-size: 3.5rem;
+            font-weight: 900;
+            margin-bottom: 1rem;
+            font-family: 'Montserrat', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo"><img src="./assets/img/osda.png" alt="れいたくラジオロゴ"></a>
+            <div class="menu-toggle" id="mobile-menu"><span class="bar"></span><span class="bar"></span><span class="bar"></span></div>
+            <ul class="nav-links">
+                <li><a href="about.html">About</a></li>
+                <li><a href="works.html">Works</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="episodes.html">Episodes</a></li>
+                <li><a href="./letters.html" class="btn-primary">おたよりフォーム</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="page-title-content fade-in">
+            <h1 class="page-title">Works</h1>
+            <p>学生のリアルを届ける、私たちの音声コンテンツ制作について</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">学生のリアルを届ける、音声コンテンツ制作</h2>
+                <p class="lead">れいたくラジオでは、企画から収録、編集、発信までを学生自身が行い、麗澤大学の日常を切り取った音声コンテンツを制作しています。</p>
+                <p>何気ない会話や学生ならではの視点を通して、大学生活の魅力やリアルな雰囲気を届けています。</p>
+            </div>
+        </section>
+
+        <section class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Radio Program</h2>
+                <h3 class="section-subtitle">麗澤Radio 本編</h3>
+                <p class="lead">学生同士のトークを中心に、キャンパスライフや大学での経験を発信するメインコンテンツ。</p>
+                <p>学生だからこそ語れるリアルな声を通して、麗澤大学の日常や魅力を届けています。</p>
+                <p><strong>YouTube Channel</strong></p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">CM Production</h2>
+                <h3 class="section-subtitle">学生活動を届ける、ラジオCM制作</h3>
+                <p class="lead">学生団体や学内組織の活動を発信するためのCM制作・放送企画を行っています。</p>
+                <p>SNSでは届きにくい情報を、ラジオという身近なメディアを通して届け、活動の認知向上や新たな交流のきっかけを創出します。</p>
+
+                <h4>制作内容</h4>
+                <ul>
+                    <li>団体紹介CM</li>
+                    <li>イベント告知</li>
+                    <li>メンバー募集</li>
+                    <li>活動への想いの発信</li>
+                </ul>
+
+                <p>企画・台本制作・収録・編集まで、学生主体でサポートしています。</p>
+            </div>
+        </section>
+
+        <section class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Short Contents</h2>
+                <h3 class="section-subtitle">短時間で楽しめる発信</h3>
+                <p class="lead">YouTube Shortsなどを活用し、ラジオ本編の魅力をより多くの人へ届けます。</p>
+                <p>忙しい日常の中でも気軽に楽しめる、短く分かりやすいコンテンツを制作しています。</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Planning &amp; Production</h2>
+                <h3 class="section-subtitle">企画・制作</h3>
+                <ul>
+                    <li>番組テーマの企画</li>
+                    <li>台本・進行設計</li>
+                    <li>収録</li>
+                    <li>音声編集</li>
+                    <li>サムネイル・動画制作</li>
+                    <li>SNS発信</li>
+                </ul>
+                <p>企画から発信まで、すべての工程を学生主体で行っています。</p>
+            </div>
+        </section>
+    </main>
+
+    <div class="text-center" style="margin: 3rem 0;">
+        <a href="index.html" class="btn-primary-outline">ホームに戻る</a>
+    </div>
+
+    <footer class="footer">
+        <div class="container footer-content"><p>&copy; 2026 ReitakuRadio. All Rights Reserved.</p></div>
+    </footer>
+
+    <script src="../src/js/script.js"></script>
+</body>
+</html>

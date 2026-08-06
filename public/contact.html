@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>お問い合わせ（団体・企業用） | れいたくラジオ</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .contact-card { max-width:900px; margin:3rem auto; padding:2rem; background:#fff; border-radius:10px; box-shadow:0 8px 30px rgba(0,0,0,0.06);} 
+        .meta-row { display:flex; gap:12px; flex-wrap:wrap; margin-bottom:12px; }
+        .label-muted { color:#666; font-size:0.95rem; }
+        .btn-row { display:flex; gap:12px; justify-content:center; margin-top:1rem; }
+        pre.email-preview { white-space:pre-wrap; background:#f7f9fb; padding:12px; border-radius:6px; color:#111; }
+    </style>
+
+        <style>
+        .page-header {
+            position: relative;
+            height: 50vh;
+            min-height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: url('assets/img/pic.png'); /* 背景画像 */
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            margin-bottom: 4rem;
+        }
+        .page-header::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.5); /* 文字を見やすくする暗いフィルター */
+        }
+        .page-title-content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            margin-top: 12rem; /* 位置を下に調整 */
+        }
+        .page-title {
+            font-size: 3.5rem;
+            font-weight: 1000;
+            margin-bottom: 1rem;
+            font-family: 'Montserrat', sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <div class="contact-card">
+            <h1>団体・企業からのお問い合わせ</h1>
+            <p class="label-muted">以下の様式でメールをお送りください。</p>
+
+            <div class="meta-row">
+                <div style="flex:1">
+                    <label class="form-label">送信先（固定）</label>
+                    <div class="form-control" style="background:#fafafa;">a240374t@reitaku.jp</div>
+                </div>
+                <div style="flex:2">
+                    <label class="form-label">件名（固定）</label>
+                    <div class="form-control" style="background:#fafafa;">【お問い合わせ】〇〇について（団体・企業名／お名前）</div>
+                </div>
+            </div>
+
+            <div>
+                <p>下記の内容をご記入のうえ、メールにてお問い合わせください。</p>
+
+                <pre class="email-preview">――――――――――――――――――――
+
+■ 所属団体名・役職・お名前
+（例：株式会社〇〇　広報部　山田 太郎）
+（例：サークル△△　代表　さつき 太郎）
+（例：学生団体□□　代表　ひいらぎ 太郎）
+
+
+■ ご連絡先メールアドレス
+（例：example@example.com）
+
+■ 電話番号（任意）
+
+■ お問い合わせ内容
+（できるだけ具体的にご記入ください）
+・ご依頼内容（例：CM依頼、広告掲載、コラボ企画 など）
+・ご希望の時期
+・その他ご要望
+
+――――――――――――――――――――</pre>
+
+                <p>内容を確認のうえ、担当者よりご連絡いたします。なお、ご返信までに数日お時間をいただく場合がございますので、あらかじめご了承ください。</p>
+            <p style="text-align:center; margin:1rem 0;"><a href="letters.html" class="btn-primary-outline">お便りページに戻る</a></p>
+
+            </div>
+    </main>
+
+    <footer class="footer"><div class="container footer-content"><p>&copy; 2026 ReitakuRadio. All Rights Reserved.</p></div></footer>
+
+    <!-- 簡易テンプレ表示のみ。コピー等の操作は不要とのことのためスクリプトは削除しました -->
+</body>
+</html>

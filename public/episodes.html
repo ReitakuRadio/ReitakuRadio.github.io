@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Episodes | れいたくラジオ</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/logo.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .episodes-header { text-align:center; padding:6rem 0 2rem; }
+        .episode { max-width: 900px; margin: 3rem auto; }
+        .episode + .episode { border-top: 1px solid #eee; padding-top: 2rem; }
+        .episode h2 { margin-bottom: 0.5rem; }
+        .episode .meta { color:#666; margin-bottom:1rem; }
+    </style>
+
+    <style>
+        .page-header {
+            position: relative;
+            height: 50vh;
+            min-height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: url('assets/img/pic.png'); /* 背景画像 */
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            margin-bottom: 4rem;
+        }
+        .page-header::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.5); /* 文字を見やすくする暗いフィルター */
+        }
+        .page-title-content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            margin-top: 12rem; /* 位置を下に調整 */
+        }
+        .page-title {
+            font-size: 3.5rem;
+            font-weight: 1000;
+            margin-bottom: 1rem;
+            font-family: 'Montserrat', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo"><img src="./assets/img/osda.png" alt="れいたくラジオロゴ"></a>
+            <div class="menu-toggle" id="mobile-menu"><span class="bar"></span><span class="bar"></span><span class="bar"></span></div>
+            <ul class="nav-links">
+                <li><a href="about.html">About</a></li>
+                <li><a href="works.html">Works</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="episodes.html">Episodes</a></li>
+                <li><a href="./letters.html" class="btn-primary">おたよりフォーム</a></li>
+            </ul>
+        </div>
+    </nav>
+
+        <header class="page-header">
+        <div class="page-title-content fade-in">
+            <h1 class="page-title">All Episodes</h1>
+            <p>過去の配信をまとめて確認できます。各エピソードの詳細とタイムスタンプ付き。</p>
+        </div>
+    </header>
+
+    <header class="episodes-header">
+        <div class="tab-buttons" role="tablist" aria-label="Episodes">
+            <button data-target="ep01" class="" role="tab">Episode 01</button>
+            <button data-target="ep02" class="" role="tab">Episode 02</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="tab-content">
+        <section id="ep01" class="episode tab-panel" aria-labelledby="ep01-tab">
+            <h2>Episode 01 — 等身大の麗澤ライフ</h2>
+            <p class="meta">公開: 2026.07.31　|　パーソナリティ: 熊谷柊志（工・３年）・二宮渓華（済・３年）　|　再生時間: 25:05</p>
+            <div class="card-youtube">
+                <iframe src="https://www.youtube.com/embed/Cyhma3tdu6o?si=kBjU6WBWxnshQeJx" title="Episode 01" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <p class="lead">学生が語るリアルな大学生活。授業や空きコマ、学食などの話題です。</p>
+            <h3>トピック</h3>
+            <ul>
+                <li>学食のおすすめメニュー</li>
+                <li>時間割の組み方</li>
+                <li>キャンパスでの過ごし方</li>
+            </ul>
+        </section>
+
+        <section id="ep02" class="episode tab-panel" aria-labelledby="ep02-tab">
+            <h2>Episode 02 — 夏到来！夏休みの過ごし方！</h2>
+            <p class="meta">公開: 2026.08.07　| パーソナリティ: 熊谷柊志（工・３年）・二宮渓華（済・３年）　|　再生時間: 34:31</p>
+            <div class="card-youtube">
+                <iframe src="https://www.youtube.com/embed/lRfOSkQnV1w?si=dkFGlpySl6kSdTvw" title="Episode 02" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <p class="lead">ついに来た。夏休みの過ごし方について、学生が語ります。</p>
+            <h3>タイムスタンプ</h3>
+            <ul>
+                <li>0:00 オープニング</li>
+                <li>2:10 夏休みの計画トーク</li>
+                <li>10:00 アルバイト体験談</li>
+                <li>18:30 Q&amp;A</li>
+            </ul>
+        </section>
+        </div>
+    </main>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function(){
+        const buttons = document.querySelectorAll('.tab-buttons button');
+        const panels = document.querySelectorAll('.tab-panel');
+        function show(id){
+            panels.forEach(p=>p.classList.toggle('active', p.id===id));
+            buttons.forEach(b=>b.classList.toggle('active', b.dataset.target===id));
+            try { history.replaceState(null, '', '#'+id); } catch(e){}
+        }
+        buttons.forEach(b=>b.addEventListener('click', ()=> show(b.dataset.target)));
+        const initial = location.hash ? location.hash.replace('#','') : (panels[0] && panels[0].id);
+        if(initial) show(initial);
+    });
+    </script>
+    <div class="text-center" style="margin: 3rem 0;">
+        <a href="index.html" class="btn-primary-outline">ホームに戻る</a>
+    </div>
+
+    <footer class="footer">
+        <div class="container footer-content"><p>&copy; 2026 ReitakuRadio. All Rights Reserved.</p></div>
+    </footer>
+
+    <script src="../src/js/script.js"></script>
+</body>
+</html>

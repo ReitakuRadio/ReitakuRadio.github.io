@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>れいたくラジオ | HP</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/logo.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="./assets/img/osda.png" alt="れいたくラジオロゴ">
+            </a>
+
+            <!-- ここにハンバーガーメニューを追加 -->
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <ul class="nav-links">
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./works.html">Works</a></li>
+              <li><a href="./news.html">News</a></li>
+              <li><a href="./episodes.html">Episodes</a></li>
+              <li><a href="./letters.html" class="btn-primary">おたよりフォーム</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <!-- 背景動画: 属性を削除し、JSで制御 -->
+        <video class="hero-video"  autoplay loop playsinline muted preload="metadata" poster="assets/img/pic.png">
+          <source src="assets/img/pic.png" type="img">
+<!--            <source src="./assets/video/robotdemoPV3%20(2).mp4" type="video/mp4">-->
+            お使いのブラウザは動画タグに対応していません。
+        </video>
+
+        <div class="bg-overlay"></div>
+        <div class="hero-content fade-in">
+            <img class="hero-title" src="assets/img/wp.png" type="img">
+            <div class="hero-scroll-indicator">
+                <div class="line"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image fade-in">
+                    <img src=assets/img/pic3.JPG alt="Our Team">
+                    <div class="accent-box"></div>
+                </div>
+                <div class="about-text fade-in delay-100">
+                    <h2 class="section-title text-left">About Us</h2>
+                    <p class="lead">「麗澤大学のリアル」を声にする、<br>学生発信のラジオ。</p>
+                    <p>れいたくラジオは、麗澤大学の学生が運営する音声コンテンツプロジェクトです。
+                      学生ならではのリアルな声や日常を通じて、麗澤大学の魅力と大学生活の価値を発信します。
+                      ここで生まれる一つひとつの声が、誰かの未来につながることを目指しています。</p>
+                    <a href="about.html" class="btn-text">View Details <span class="arrow">→</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Works Section (Renamed from Activities) -->
+    <section id="works" class="section bg-light slant-top">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 class="section-title">Latest Episodes</h2>
+                <p class="section-desc">学生のリアルな声を、あなたの日常へ。</p>
+            </div>
+
+            <div class="card-grid">
+
+                <div class="card fade-in delay-100">
+
+                    <div class="card-content">
+                    <div class="card-youtube">
+                        <iframe 
+                            src="https://www.youtube.com/embed/lRfOSkQnV1w?si=dkFGlpySl6kSdTvw"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                        <span class="card-tag">Episode 02</span>
+                        <h3>夏到来！夏休みの過ごし方！</h3>
+                        <p>ついに来た。夏休みの過ごし方について、学生が語ります。</p>
+                        <a href="episodes.html#ep02" class="card-button">聞いてみる</a>
+                    </div>
+                </div>
+
+
+                <div class="card fade-in delay-100">
+
+                    <div class="card-content">
+                    <div class="card-youtube">
+                        <iframe 
+                            src="https://www.youtube.com/embed/Cyhma3tdu6o?si=kBjU6WBWxnshQeJx"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allowfullscreen>    
+                        </iframe>
+                    </div>
+                        <span class="card-tag">Episode 01</span>
+                        <h3>等身大のれいたくライフ</h3>
+                        <p>ついに来た。夏休みの過ごし方について、学生が語ります。</p>
+                        <a href="episodes.html#ep01" class="card-button">聞いてみる</a>
+                    </div>
+                </div>
+
+            <div class="text-center mt-5 fade-in">
+                <a href="#" class="btn-primary-outline">View All Episodes</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section id="news" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Latest News</h2>
+            <div class="news-list fade-in delay-100">
+                <a href="#" class="news-item">
+                    <span class="news-date"></span>
+                    <span class="news-cat"></span>
+                    <span class="news-title">準備中</span>
+                </a>
+
+            <div class="text-center mt-5 fade-in">
+                <a href="./news.html" class="btn-text">More News <span class="arrow">→</span></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 ReitakuRadio. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../src/js/script.js"></script>
+</body>
+</html>

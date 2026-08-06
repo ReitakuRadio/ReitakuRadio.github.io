@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | れいたくラジオ</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/logo.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- 下層ページ用の一時的なスタイル（本来はstyle.cssに記述推奨） -->
+    <style>
+        .page-header {
+            position: relative;
+            height: 50vh;
+            min-height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: url('assets/img/pic.png'); /* 背景画像 */
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            margin-bottom: 4rem;
+        }
+        .page-header::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.5); /* 文字を見やすくする暗いフィルター */
+        }
+        .page-title-content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            margin-top: 12rem; /* 位置を下に調整 */
+        }
+        .page-title {
+            font-size: 3.5rem;
+            font-weight: 1000;
+            margin-bottom: 1rem;
+            font-family: 'Montserrat', sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation (index.htmlと共通) -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="./assets/img/osda.png" alt="れいたくラジオロゴ">
+            </a>
+
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <ul class="nav-links">
+                <!-- 自ページへのリンクはクラスなどで現在地表示をしても良い -->
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./works.html">Works</a></li>
+              <li><a href="./news.html">News</a></li>
+              <li><a href="episodes.html">Episodes</a></li>
+              <li><a href="./letters.html" class="btn-primary">おたよりフォーム</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header (下層ページ用のヘッダー) -->
+    <header class="page-header">
+        <div class="page-title-content fade-in">
+            <h1 class="page-title">About Us</h1>
+            <p>私たちの活動、ミッション、チームについて</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="section">
+            <div class="container">
+                <div class="about-text">
+                    <h2 class="section-title">目的</h2>
+                    <p class="lead" style="margin-bottom: 3rem;">大学生活をリアルに伝える。</p>
+                    <p>れいたくラジオは、麗澤大学で過ごす日々や学生のリアルな声を届ける学生主体の音声コンテンツです。<br>
+                      授業、サークル、キャンパスでの何気ない出来事など、学生だからこそ語れる等身大の大学生活を発信し、<br>
+                      麗澤大学の魅力をより身近に感じてもらうことを目指しています。
+                </div>
+            </div>
+        </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="about-text">
+            <h2 class="section-title">Target（届けたい人）</h2>
+            <p class="lead" style="margin-bottom: 3rem;">受験生・在学生</p>
+            <p>これから麗澤大学を目指す受験生には、パンフレットや公式情報だけでは伝わりにくい「リアルな学生生活」を届けます。<br>
+              受験生が抱える不安や疑問に寄り添い、麗澤大学での生活をイメージしやすくすることを目指します。<br>
+              また、在学生にとっても、新しい発見や学生同士の交流につながるコンテンツを目指します。
+          </div>
+        </div>
+      </section>
+
+     <section class="section">
+        <div class="container">
+          <div class="about-text">
+            <h2 class="section-title">Concept（コンセプト）</h2>
+            <p class="lead" style="margin-bottom: 3rem;">隙間時間に楽しめる、学生発信のラジオ</p>
+            <p>通学時間や休憩時間など、日常のちょっとした時間に気軽に聴けるコンテンツを提供します。<br>
+              学生同士の会話やリアルな体験を通して、麗澤大学の日常を身近に感じられる場所をつくります。
+          </div>
+        </div>
+      </section>
+
+    <section class="section">
+        <div class="container">
+          <div class="about-text">
+            <h2 class="section-title">Activity（活動内容）</h2>
+            <p class="lead" style="margin-bottom: 3rem;">学生自身が企画・制作・発信する音声コンテンツ</p>
+            <p>企画立案から収録、編集、配信までを学生が主体となって行っています。<br>
+              学部や学年を越えたメンバーが集まり、それぞれの視点から麗澤大学の魅力を発信しています。
+          </div>
+        </div>
+      </section>
+
+
+        <!-- メンバー紹介や沿革などをここに追加 -->
+        <section class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">一人ひとりの声が、誰かの未来につながる。</h2>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 ReitakuRadio. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../src/js/script.js"></script>
+</body>
+</html>

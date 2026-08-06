@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f2d10a02-170c-41c1-b9f0-43bf4ba7a6cf" name="変更" comment="indexの画像引き伸ばしを修正" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/Users/くまぷー/Desktop/Radio" value="3HXuO7c12nWb3iAuGq5PoDeOOgt" />
+      <entry key="_C:/Users/くまぷー/IdeaProjects/rrrd" value="38WrKklT3YDbSySQ9KVsaBLPMeB" />
+    </persistenceIdMap>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {}
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kumadesu4649/rrrd.git&quot;,
+    &quot;accountId&quot;: &quot;f6a6425f-311e-4b24-b19e-3e7d6ba3ef02&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="38WrKklT3YDbSySQ9KVsaBLPMeB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/くまぷー/Desktop/Radio/public/assets/img",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\くまぷー\Desktop\Radio\public\assets\img" />
+      <recent name="C:\Users\くまぷー\IdeaProjects\rrrd\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\くまぷー\IdeaProjects\rrrd\public" />
+      <recent name="C:\Users\くまぷー\IdeaProjects\rrrd\public\assets\img" />
+      <recent name="C:\Users\くまぷー\IdeaProjects\rrrd\public\assets" />
+      <recent name="C:\Users\くまぷー\IdeaProjects\rrrd\src\js" />
+      <recent name="C:\Users\くまぷー\IdeaProjects\rrrd\src" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.240" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.29346.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="デフォルトタスク">
+      <changelist id="f2d10a02-170c-41c1-b9f0-43bf4ba7a6cf" name="変更" comment="" />
+      <created>1768926107158</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1768926107158</updated>
+      <workItem from="1768926110879" duration="182000" />
+      <workItem from="1768926413651" duration="313000" />
+      <workItem from="1768926786289" duration="5316000" />
+      <workItem from="1768932239805" duration="611000" />
+      <workItem from="1768932875911" duration="310000" />
+      <workItem from="1768933253871" duration="3760000" />
+      <workItem from="1768937306264" duration="6861000" />
+      <workItem from="1769014262176" duration="497000" />
+      <workItem from="1769191691269" duration="348000" />
+      <workItem from="1769192052881" duration="875000" />
+      <workItem from="1769609859742" duration="97000" />
+      <workItem from="1769657884035" duration="13000" />
+      <workItem from="1769661774216" duration="832000" />
+      <workItem from="1775493292698" duration="831000" />
+      <workItem from="1775657780310" duration="612000" />
+      <workItem from="1775658854314" duration="1863000" />
+      <workItem from="1786026701431" duration="789000" />
+      <workItem from="1786027508533" duration="112000" />
+      <workItem from="1786027643164" duration="3394000" />
+    </task>
+    <task id="LOCAL-00001" summary="mp4の圧縮">
+      <option name="closed" value="true" />
+      <created>1768934701687</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1768934701687</updated>
+    </task>
+    <task id="LOCAL-00002" summary="軽微な修正">
+      <option name="closed" value="true" />
+      <created>1768935461761</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1768935461761</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ロゴ系の調整&#10;スマホのレスポンシブ等々">
+      <option name="closed" value="true" />
+      <created>1768938833820</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1768938833820</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ロゴ系の調整&#10;スマホのレスポンシブ等々">
+      <option name="closed" value="true" />
+      <created>1768939440633</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1768939440633</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ムービー系の修正">
+      <option name="closed" value="true" />
+      <created>1768941534537</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1768941534537</updated>
+    </task>
+    <task id="LOCAL-00006" summary="フォルダ整理">
+      <option name="closed" value="true" />
+      <created>1768942432905</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1768942432905</updated>
+    </task>
+    <task id="LOCAL-00007" summary="分岐するページのテンプレを、それぞれ追加タイトルの位置調整">
+      <option name="closed" value="true" />
+      <created>1768943579640</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1768943579640</updated>
+    </task>
+    <task id="LOCAL-00008" summary="画面転移ミスを修正">
+      <option name="closed" value="true" />
+      <created>1768943713719</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1768943713719</updated>
+    </task>
+    <task id="LOCAL-00009" summary="indexの画像引き伸ばしを修正">
+      <option name="closed" value="true" />
+      <created>1768944403735</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1768944403735</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="86a7cac5-4291-49d3-a365-5a339e98b97e" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="86a7cac5-4291-49d3-a365-5a339e98b97e">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="mp4の圧縮" />
+    <MESSAGE value="軽微な修正" />
+    <MESSAGE value="ロゴ系の調整&#10;スマホのレスポンシブ等々" />
+    <MESSAGE value="ムービー系の修正" />
+    <MESSAGE value="フォルダ整理" />
+    <MESSAGE value="分岐するページのテンプレを、それぞれ追加タイトルの位置調整" />
+    <MESSAGE value="画面転移ミスを修正" />
+    <MESSAGE value="indexの画像引き伸ばしを修正" />
+    <option name="LAST_COMMIT_MESSAGE" value="indexの画像引き伸ばしを修正" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>
