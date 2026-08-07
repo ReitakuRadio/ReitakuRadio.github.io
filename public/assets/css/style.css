@@ -632,8 +632,8 @@ img {
 .form-embed {
     position: relative;
     width: 100%;
-    max-width: 100%;
-    padding-bottom: 140.9%; /* preserve original iframe aspect ratio (902/640) */
+    max-width: 200%;
+    padding-bottom: 100%; /* preserve original iframe aspect ratio (902/640) */
     height: 0;
     overflow: hidden;
 }
