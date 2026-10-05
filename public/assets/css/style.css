@@ -217,35 +217,21 @@ ul { list-style: none; }
     justify-content: center;
     text-align: center;
     position: relative;
-    /* 背景画像を削除し、動画要素に任せる */
     color: #fff;
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
-    overflow: hidden; /* 動画のサイズ調整用 */
+    overflow: hidden;
 }
 
-/* 背景動画のスタイル */
-.hero-video {
+/* Hero image */
+.hero-image {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; /* コンテナに合わせてトリミングし、歪みを防ぐ */
+    object-fit: cover;
     z-index: -1;
 }
-
-/*
-.bg-overlay {
-    position: absolute;
-    top: 0; left: 0; width: 100%; height: 100%;
-    !* 背景を暗くして文字を見やすくする & グリッド *!
-    background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.8)),
-                linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
-    background-size: 100% 100%, 50px 50px, 50px 50px;
-    z-index: 1;
-}
-*/
 
 .hero-content {
     position: relative;
